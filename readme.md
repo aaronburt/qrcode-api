@@ -2,6 +2,9 @@
 
 This is an Express.js server inside with docker support that allows you to generate QR codes from a given input string. It utilizes the qrcode and express-rate-limit packages to generate QR codes and limit the rate of requests respectively.
 
+## Docker run
+```docker run -p 8080:8080 mrburtuk/qrcode-api```
+
 ## Features
 - Generates QR codes from given input strings
 - Implements rate limiting to prevent abuse of the API
